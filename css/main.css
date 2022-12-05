@@ -1,0 +1,88 @@
+
+/* body{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+td{
+    height: 60px;
+    width: 200px;
+    text-align: center;
+}
+
+td > img{
+    height: 50px;
+}
+
+
+tbody{
+    background-color: rgb(174, 204, 204);
+}
+
+thead{
+    background-color: rgb(67, 227, 152);
+}
+
+.newBook{
+    cursor: pointer;
+    color: blue;
+    font-size: large;
+}
+
+
+
+.modal {
+    background-color: rgb(71, 182, 197);
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 150%;
+    height: 80vh;
+    min-width: 300px;
+    text-align: center;
+}
+.modal.show {
+    left: 50%;
+    transition: left .5s;
+}
+.modal h3{
+    color:rgb(45, 5, 250);
+    font-weight: 900;
+    font-size: x-large;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.modal h4{
+    text-align: left;
+}
+.modal h5{
+    font-size: large;
+    text-decoration: underline;
+}
+
+.rate-buttons{
+ text-align: center;
+ background-color: rgb(71, 157, 157) ;
+ width: 40%;
+ padding: 4px;
+}
+.rate-buttons .rate-minus{
+    margin-right: 4px;
+}
+.rate-buttons .rate-plus{
+    margin-left: 4px;
+}
+/* .modal h4 span{
+    color:rgb(0, 0, 0);
+} */
+.modal > p {
+    text-align: left;
+}
